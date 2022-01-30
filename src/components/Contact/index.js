@@ -44,6 +44,7 @@ function ContactForm() {
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
+          <br />
           <input
             type="text"
             defaultValue={name}
@@ -53,6 +54,7 @@ function ContactForm() {
         </div>
         <div>
           <label htmlFor="email">Email address:</label>
+          <br />
           <input
             type="email"
             defaultValue={email}
@@ -62,6 +64,7 @@ function ContactForm() {
         </div>
         <div>
           <label htmlFor="message">Message:</label>
+          <br />
           <textarea
             name="message"
             defaultValue={message}

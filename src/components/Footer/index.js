@@ -4,17 +4,29 @@ function Footer() {
   return (
     <footer className="footer">
       <div>
-        <a href="https://github.com/tarekyou" target="_blank">
+        <a
+          href="https://github.com/tarekyou"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           github
         </a>
       </div>
       <div>
-        <a href="https://www.linkedin.com/user" target="_blank">
+        <a
+          href="https://www.linkedin.com/user"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           linkedin
         </a>
       </div>
       <div>
-        <a href="https://stackoverflow.com/user" target="_blank">
+        <a
+          href="https://stackoverflow.com/user"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           stackoverflow
         </a>
       </div>

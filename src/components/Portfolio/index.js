@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ProjectList from "../ProjectList";
 
 function Portfolio() {
@@ -43,6 +43,7 @@ function Portfolio() {
   ];
   return (
     <div>
+      <h2>Projects</h2>
       <ProjectList projects={projects} />
     </div>
   );
