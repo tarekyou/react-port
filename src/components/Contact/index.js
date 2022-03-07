@@ -39,7 +39,7 @@ function ContactForm() {
   }
   // JSX
   return (
-    <section>
+    <section className="">
       <h1>Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>

@@ -40,6 +40,12 @@ function Portfolio() {
       repo: "https://github.com/tarekyou/workday-scheduler",
       deployed: "https://tarekyou.github.io/workday-scheduler/",
     },
+    {
+      title: "Tutor central",
+      image: "Tutoring-Services-Marketplace.png",
+      repo: "https://github.com/tarekyou/project3",
+      deployed: "https://tutor-central.herokuapp.com/",
+    },
   ];
   return (
     <div>
